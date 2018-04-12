@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test CSS</title>
+	<style type="text/css">
+		* {
+			margin: 0px auto;
+		}
+
+		body {
+			background-color: green;
+		}
+
+		#container {
+			width: 960px;
+		}
+
+		.signupform {
+			width: 460px;
+			padding: 10px;
+			background-color: blue;
+			height: 400px;
+			float: left;
+		}
+
+		.signinform {
+			width: 460px;
+			padding: 10px;
+			float: left;
+			background-color: red;
+			height: 490px;
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+            <div class="signupform">
+                <form method="post" action="DisplayServlet">
+                    <fieldset>
+                        <legend>Sign Up Form</legend>
+                        <table>
+                            <tr><td>Name:</td><td><input type="text" name="fullname"/></td></tr>
+                            <tr><td>Email:</td><td><input type="email" name="mail"/></td></tr>
+                            <tr><td>Password:</td><td><input type="password" name="pass"/></td></tr>
+                            <tr><td colspan="2"><input type="submit" name="send" value="Register"></td></tr>
+                        </table>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="signinform">
+                <form method="post" action="DisplayServlet">
+                    <fieldset>
+                        <legend>Sign In Form</legend>
+                        <table>
+                            <tr><td>Email:</td><td><input type="email" name="mail"/></td></tr>
+                            <tr><td>Password:</td><td><input type="password" name="pass"/></td></tr>
+                            <tr><td colspan="2"><input type="submit" name="send" value="Log In"></td></tr>
+                        </table>
+                    </fieldset>
+                </form>
+            </div>
+                 
+        </div>
+</body>
+</html>

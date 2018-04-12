@@ -1,0 +1,21 @@
+ <!--  Edited by XMLSpy®  -->
+<xml>
+
+	<!--$myxml="<xml>"."<note>";
+	$myxml.="<to>Tove</to></note></xml>"; -->
+
+<note>
+<to>Tove</to>
+<from>Jani</from>
+<heading>Reminder</heading>
+<body>Don't forget me this weekend!</body>
+</note>
+
+<note>
+<to>Jane</to>
+<from>Tove</from>
+<heading>Short term memory loss</heading>
+<body>Don't forget me this weekend!</body>
+</note>
+
+</xml>
